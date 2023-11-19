@@ -3,8 +3,8 @@
 
 #include <signal.h>
 #include <unistd.h>
-#include <stdlib.h>
-#include <stdio.h>
 #include "./libft/libft.h"
+
+#define BUFFER 50000
 
 #endif
