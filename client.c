@@ -6,7 +6,7 @@
 /*   By: zhedlund <zhedlund@student.42berlin.de>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/17 15:56:00 by zhedlund          #+#    #+#             */
-/*   Updated: 2023/11/20 14:29:23 by zhedlund         ###   ########.fr       */
+/*   Updated: 2023/11/21 15:26:13 by zhedlund         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ int	main(int argc, char **argv)
 		ft_putendl_fd("Usage: <server PID> <message>", 1);
 		exit(1);
 	}
-	server_pid = atoi(argv[1]);
+	server_pid = ft_atoi(argv[1]);
 	message = argv[2];
 	send_message(server_pid, message);
 	return (0);
